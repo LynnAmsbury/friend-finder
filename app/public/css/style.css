@@ -1,6 +1,6 @@
 /* both pages */
 body {
-    background-image: url("../../../images/blue-cat-pattern-wallpaper.jpg");
+    background-image: url("../images/blue-cat-pattern-wallpaper.jpg");
     font-family: 'Germania One', cursive;
 }
 
@@ -25,9 +25,9 @@ body {
     font-size: 1.3rem;
 } */
 
-.display-4 {
+/* .display-4 {
     font-family: 'Germania One', cursive;
-}
+} */
 
 .ex-link {
     color: black;
@@ -66,7 +66,10 @@ form {
     margin: 1rem auto;
 }
 
-.results-image {
+/* .results-image {
+    width: 25rem;
+} */
+#match-image {
     width: 25rem;
 }
 
