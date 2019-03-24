@@ -5,9 +5,15 @@
   <meta charset="UTF-8">
   <title>Crazy Cat Person's Friend Finder</title>
 
-  <!-- Latest compiled and minified CSS & JS -->
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/5.7.2/css/font-awesome.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" type='text/css' href="css/style.css">
+  <!-- jQuery -->
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <!-- Chosen -->
@@ -166,7 +172,8 @@
     <hr>
     <footer class="footer">
       <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+        <!-- External Links-->
+        <p><a href="../data/friends.js" target="_blank" class="ex-link">API Friends List</a> | <a href="https://github.com/LynnAmsbury/friend-finder" target="_blank" class="ex-link">GitHub Repo</a></p>
       </div>
     </footer>
 
@@ -204,7 +211,7 @@
     }
     console.log({userData});
 
-    $.post('/api/friends', userData, function(data) {
+    $.post('../data/friends.js', userData, function(data) {
       console.log(data);
 
           // use jQuery to append info to modal and open it
