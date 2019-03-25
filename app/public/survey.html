@@ -36,7 +36,7 @@
 
     <div class="container">
 
-        <h2><i class="fas fa-cat"></i>Survey Questions</h2>
+        <h2><i class="fas fa-cat"></i> Survey Questions</h2>
         <hr>
 
         <h3><strong>About You</strong></h3>
@@ -206,6 +206,21 @@
     <script>
         $('#submit').on('click', function (event) {
             console.log("HERE GOES!");
+
+            if($("#name").val().length < 1) {
+                alert("Name too short!")!$("#q2").val()
+                return;
+            }
+            if($("#photo").val().length < 1) {
+                alert("Must include link to photo!");
+                return;
+            }
+
+            if( !$("#q1").val() || !$("#q2").val() || !$("#q3").val() || !$("#q4").val() || !$("#q5").val() || !$("#q6").val() || !$("#q7").val() || !$("#q8").val() || !$("#q9").val() || !$("#q10").val()) {
+                alert("Please fill out all questions");
+                return;
+            }
+
             var userData = {
                 name: $('#name').val(),
                 photo: $('#photo').val(),
