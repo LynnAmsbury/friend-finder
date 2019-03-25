@@ -12,15 +12,15 @@ Express, Node.js
 
 To find your perfect cat-obsessed friend, visit this app's [homepage](https://cat-person-friend-finder.herokuapp.com/).
 
-![home page](app/public/images/friendFinderHomePage.png)
+![home page](app/public/images/home_page.png)
 
 Click *Begin Survey*.
 
 Fill out the blank form. Include data for all fields, otherwise you won't be able to submit.
 
-![blank survey](app/public/images/blankSurvey.png)
+![blank survey](app/public/images/blank_survey.png)
 
-![filled-out form](app/public/images/filledOutSurvey.png)
+![filled-out survey](app/public/images/filled_out_survey.png)
 
 Click *Submit Answers*.
 
