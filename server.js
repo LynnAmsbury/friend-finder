@@ -4,7 +4,6 @@ var express = require("express");
 // Creates an express server
 var app = express()
 
-
 var friends = require("./app/data/friends");
 
 // Sets up the port

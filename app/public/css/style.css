@@ -21,14 +21,6 @@ body {
     color: rgb(121, 225, 249);
 }
 
-/* .lead {
-    font-size: 1.3rem;
-} */
-
-/* .display-4 {
-    font-family: 'Germania One', cursive;
-} */
-
 .ex-link {
     color: black;
     font-size: 1.2rem;
@@ -55,10 +47,8 @@ a:hover {
 }
 
 /* survey.html only */
-
 .form-control {
     margin-bottom: 1.5rem;
-    /* background-color: rgb(121, 225, 249); */
 }
 
 form {
@@ -66,20 +56,6 @@ form {
     margin: 1rem auto;
 }
 
-/* .results-image {
-    width: 25rem;
-} */
 #match-img {
     width: 100%;
-}
-
-.results-text,
-.invalid-text {
-    margin-top: 1rem;
-    font-size: 1.2rem;
-}
-
-.required-field {
-    color: #FFD065;
-    font-style: italic;
 }
