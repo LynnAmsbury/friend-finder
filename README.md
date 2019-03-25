@@ -26,4 +26,4 @@ Click *Submit Answers*.
 
 Your results will be displayed in a modal.
 
-![results](images/results.png)
+![results](app/public/images/results.png)
