@@ -1,6 +1,6 @@
 // Dependencies
 var path = require("path");
-var express = require("express");
+var express = require("../../node_modules/express");
 
 // Routing
 module.exports = function(app) {

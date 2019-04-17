@@ -51,6 +51,10 @@ a:hover {
     margin-bottom: 1.5rem;
 }
 
+.form-control, .chosen-select {
+    background-color: rgb(121, 225, 249);
+}
+
 form {
     width: 80%;
     margin: 1rem auto;

@@ -23,7 +23,6 @@ module.exports = function (app) {
             friendDifference: Infinity
         };
         // Results from the user's survey
-        var userData = req.body;
         var userScores = userData.scores;
         // Calculate the difference between the user's score and the scores of the other users in the database
         var totalDifference;

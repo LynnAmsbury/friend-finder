@@ -1,5 +1,5 @@
 // Dependencies
-var express = require("express");
+var express = require("./node_modules/express");
 
 // Creates an express server
 var app = express()
